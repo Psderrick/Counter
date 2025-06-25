@@ -1,0 +1,109 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  color: #2c3e50;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* Main Layout */
+main {
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Container Styling */
+.container {
+  background: #fff;
+  padding: 3rem 2rem;
+  border-radius: 15px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+/* Heading */
+.container h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: #34495e;
+}
+
+/* Counter Display */
+.value {
+  display: block;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #e67e22;
+  transition: color 0.3s ease;
+}
+
+/* Button Group */
+.container div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+/* Buttons Base Style */
+.btn {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  min-width: 120px;
+  transition: all 0.3s ease;
+}
+
+/* Button Colors */
+.increase {
+  background-color: #27ae60;
+}
+
+.reset {
+  background-color: #f39c12;
+}
+
+.decrease {
+  background-color: #c0392b;
+}
+
+/* Hover Effects */
+.btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .container {
+    padding: 2rem 1.5rem;
+  }
+
+  .container h1 {
+    font-size: 1.8rem;
+  }
+
+  .value {
+    font-size: 3rem;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
