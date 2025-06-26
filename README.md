@@ -18,8 +18,8 @@ A simple, modern counter application built with **HTML**, **CSS**, and **JavaScr
 
 ## 🚀 Live Demo
 
-[👉 View it Live](https://yourusername.github.io/counter-app/)  
-*(Replace with your GitHub Pages link if hosted)*
+[👉 View it Live https://psderrick.github.io/Counter/
+
 
 ---
 
